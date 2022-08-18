@@ -36,7 +36,7 @@ namespace Maf.Services.Core.ClassifiedDocument.Controllers
         [HttpPost]
         public ResponseClassified SetClassified(RequestClassified requestClassified)
         {
-            string guardoLog;
+            string guardoLog_prueba001;
             ResponseClassified respondeClassified = new ResponseClassified();
             RequestClassifiedLog requestClassifiedLog = new RequestClassifiedLog();
 
@@ -114,7 +114,7 @@ namespace Maf.Services.Core.ClassifiedDocument.Controllers
                         int convertCode;
                         ErrorHandler errorHandler = new ErrorHandler();
 
-                        guardoLog = SaveRequest(requestClassified.workItemIdOriginal, requestClassified.newWorkItemId, JsonConvert.SerializeObject(requestClassifiedLog), "", "", "", "");
+                        guardoLog_prueba001 = SaveRequest(requestClassified.workItemIdOriginal, requestClassified.newWorkItemId, JsonConvert.SerializeObject(requestClassifiedLog), "", "", "", "");
 
                         while (dataReader.Read())
                         {
