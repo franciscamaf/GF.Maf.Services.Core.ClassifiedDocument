@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maf.Services.Core.ClassifiedDocument", "Maf.Services.Core.ClassifiedDocument.csproj", "{1F4B084A-B6F7-42C9-98DB-00F312C1AB31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F4B084A-B6F7-42C9-98DB-00F312C1AB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4B084A-B6F7-42C9-98DB-00F312C1AB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4B084A-B6F7-42C9-98DB-00F312C1AB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4B084A-B6F7-42C9-98DB-00F312C1AB31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6781CA9E-FDF3-4C18-A5D9-99D8E95BC823}
+	EndGlobalSection
+EndGlobal

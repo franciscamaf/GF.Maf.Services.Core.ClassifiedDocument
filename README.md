@@ -1,1 +1,1 @@
-# GF.Maf.Services.Core.ClassifiedDocument-
+# Maf.Services.Core.ClassifiedDocument
