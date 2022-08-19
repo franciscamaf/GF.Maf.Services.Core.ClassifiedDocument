@@ -37,6 +37,7 @@ namespace Maf.Services.Core.ClassifiedDocument.Controllers
         public ResponseClassified SetClassified(RequestClassified requestClassified)
         {
             string guardoLog_prueba001;
+            var TEST;
             ResponseClassified respondeClassified = new ResponseClassified();
             RequestClassifiedLog requestClassifiedLog = new RequestClassifiedLog();
 
